@@ -492,7 +492,7 @@ __PACKAGE__->meta->make_immutable;
 
 ## Recommended modules
 
-* Use Readonly for constants and immutable values.
+* Use [Readonly](https://metacpan.org/pod/Readonly) for constants and immutable values.
 
 ```perl
 use Readonly;
