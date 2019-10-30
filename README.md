@@ -449,10 +449,12 @@ my %hash = (key1 => 'val1',
 Perl is fairly minimal when it comes to Object-Oriented Programming. It uses a class-based system where you define a subroutine typically named "new" to be called and this is how you can instantiate a class out of a module.
 
 * Favor the use of Moose, Mouse, Mo or similar instead of classic Perl OOP.
+    * https://metacpan.org/pod/distribution/Moose/lib/Moose/Manual.pod
 
 * Try not to use BUILDARGS as it leads to difficult to maintain code.
-
-__FIXME__: I'm not so sure about this guideline.
+    * Not sure what this means.
+    
+* Use 'new' as the name of your subroutine that constructs/instantiates the class.
 
 ```perl
 package Class;
